@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    height: 15vh; 
+    border: solid;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%
+   
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; 
+  }
+  
+  .input-container input {
+    margin-right: 10px; 
+  }
+  
+  .input-container button {
+    margin-left: 10px; 
+  }
+
+  
+  
+
+  .list-container {
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .material-symbols-outlined:hover { 
+    font-weight: 700;
+    cursor: default;
+  }
+
+  .strike-through {
+    text-decoration: line-through;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+
+
